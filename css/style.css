@@ -1,0 +1,419 @@
+body{
+    margin: 0;
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+}
+.main_container{
+
+    width: 100%;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(184, 184, 184);
+}
+.logo{
+    width:70px;
+    height:70px
+}
+.h_navigator{
+    margin: 24px 0px 0px 35px;
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #0068b5;
+}
+.h_navigator:hover{
+    color: #00477c;
+}
+.h_user{
+    margin: 25px 0px 0px 0px;
+    margin-left: auto;
+    height: 10px;
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: #0068b5;
+}
+.h_user:hover{
+    color:#00477c;
+    cursor: pointer;
+}
+ion-icon {
+    --ionicon-stroke-width: 40px;
+}
+.world{
+    margin-top: 25px;
+    display: flex;
+    margin-left: 15px;
+    height: 10px;
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 300;
+    text-decoration: none;
+    color: #0068b5;
+}
+.world:hover .world-hover{
+    color: #00477c;
+}
+.h_redirect{
+    margin-left: 3px;
+    font-size:10px;
+    text-decoration: none;
+    color: #0068b5;
+}
+.search_bar{
+    margin-left: 20px;
+    width: 20%;
+    background-color: rgb(240, 240, 240);padding-top: 10px;
+}
+.search{
+    width: 80%;
+    height: 90%;
+    border: none;
+    background:none;
+    outline: none;
+}
+.quote{
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.wrapper{
+    display: none;
+    z-index:1;
+    position: absolute;
+    width: 100%;
+    background-color: #fefefe;
+}
+.clicked:focus + .wrapper{
+    display: block;
+}
+.clicked{
+    position: absolute;
+    top: 0;
+}
+.main_heading_container{
+    width: 95%;
+    height: 4rem;
+    display: flex;
+    border-bottom: 1px solid rgb(184, 184, 184);
+    margin-left: 2rem;
+}
+.main_heading{
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #0068b5;
+    background-color: #fefefe;
+    margin-top: 2.3rem;
+}
+.main_heading:hover{
+    color: #0f4c7a;
+}
+.tab_heading{
+    font-size: 16px;
+    font-family:"intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #0068b5;
+    text-decoration: none;
+}
+.product_details{
+    margin-top: 10px;
+    /* display: flex; */
+    width: 18%;
+    margin-left: 1rem;
+}
+.inside_elements{
+    list-style: none;
+    margin-top: .6rem;
+    font-size: 14px;
+    color: #0068b5;
+    text-decoration: none;
+}
+.heading_container{
+    padding-top: 15px;
+    color: #0068b5;
+}
+.tab_elements{
+    display: flex;
+    flex-direction: column;
+}
+.tab_container{
+    display: flex;
+    width: 100%;
+}
+.f_half{
+    z-index:-1;
+    height:300px;
+    width:35%;
+    position: absolute;
+    top: 0;
+    margin-top: 19rem;
+    margin-left: 20px;
+}
+.t_heading{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+    margin-left: 27px;
+    letter-spacing: 1px;
+    color: rgb(46, 45, 45);
+}
+.para{
+    margin-left: 27px;
+    font-weight: 100;
+    color: rgb(46, 45, 45);
+    font-size: 14px;
+    letter-spacing :1px; ;
+
+}
+.contents{
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(rgb(251, 251, 251),#015178,#00537c);
+}
+.video_player{
+
+    width: 77%;
+    height: 77%;
+    margin-left: 11%;
+    margin-top: 5px;
+}
+.tabs_holder{
+    width: 100%;
+    height: 570px;
+    background-color: rgb(42, 42, 42);
+    padding-top: 10px;
+}
+.heading{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 2.0rem;
+    line-height: 0.25;
+    margin: 0 0 1.5rem;
+    color: rgb(213, 213, 213);
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 4rem;
+}
+.para_one{
+    text-align: center;
+    color: rgb(213, 213, 213);
+    margin-left: -1px;
+    letter-spacing: 1.1px;
+}
+.tile{
+    float: left;
+    width: 27%;
+    margin-left: 5rem;
+    margin-top: 3rem;
+}
+.tile_img{
+    width: 100%;
+    height: inherit;
+}
+.tile_heading{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.375rem;
+    line-height: 1.27;
+    margin: 0 0 1.5rem;
+    color: rgb(213, 213, 213);
+    letter-spacing: 1px;
+    text-decoration: underline dashed;
+    text-underline-offset: .5rem;
+    text-decoration-thickness: 2px;
+}
+.tile_heading:hover{
+    text-decoration: underline;
+}
+.tile_para{
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 1.42857143;
+    color: rgb(213, 213, 213);
+}
+.w_redirect{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: .9rem;
+    letter-spacing: 1px;
+    text-decoration: underline dashed;
+    text-underline-offset: .5rem;
+    color:rgb(213, 213, 213);
+}
+.w_redirect:hover{
+    text-decoration: underline;
+}
+.tile_one {
+    float: left;
+    width: 27%;
+    margin-top: 3rem;
+    margin-left: 2.5rem;
+}
+.video_container{
+    width: 90%;
+    height: 29rem;
+    padding-top:3rem;
+    padding-left: 5rem;
+}
+.s_video_player{
+    background-color: black;
+    width: 65%;
+    height: 80%;
+    float: left;
+}
+.s_video{
+    max-width:100%;
+}
+.learn_more {
+    margin-top:8rem;
+    margin-left:50rem;
+}
+.learn_more h1{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.6rem;
+    line-height: 1.25;
+}
+.learn_more p{
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height:1.2rem;
+    font-size: 15px;
+}
+.learn_more button{
+    background-color: #0068b5;
+    padding: 5px;
+    border:none;
+    width: 8rem;
+    height: 2.5rem;
+    color: aliceblue;
+    letter-spacing:1px;;
+    font-size: 15px;
+    font-weight: 100;
+}
+.explore{
+    padding-top: 3rem;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(14, 28, 106);
+}
+.e_title{
+    margin-left: 5rem;
+    font-family: "intel-one","intel-clear",Helvetica,Arial,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 2rem;
+    color: #fff;   
+    letter-spacing: 1px;
+}
+.footer{
+    padding: 5rem;
+    width: 85%;
+    height: 220px;
+}
+.f_logo{
+    width:15%;
+    height: 100%;
+    float: left;
+    
+}
+.f_logo img{
+
+    width: 6rem;
+    height: 33px;
+    margin-top: 7rem;
+}
+.f_redirect{
+    display: flex;
+    flex-direction: column;
+    margin-left:10rem; 
+    width: 85%;
+    height: 100%;
+}
+.re_op{
+    width: 100%;
+    display: flex;
+    height: 3rem;
+}
+.r_elements{
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #262626;
+    background-color: #fefefe;
+    margin-left: 1.6rem;
+    text-decoration: none;
+}
+.icons{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+.f_details{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+.fd_contents{
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #262626;
+    font-weight: 200;
+    letter-spacing:1px  ;
+}
+.d_contents{
+    margin-top: 17px;
+    margin-left: 19px;
+    font-family: "intel-clear","tahoma",Helvetica,"helvetica",Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #262626;
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 200;
+}
+.d_contents:hover{
+    text-decoration:underline;
+}
+.f_para{
+    font-size: 12px;
+    font-weight: 100;
+}
+.icon_mng{
+    margin-left:15px;
+}
+.icons i:hover{
+    color: #313131;
+    cursor: pointer;
+}
+.con{
+    color:white;
+}
